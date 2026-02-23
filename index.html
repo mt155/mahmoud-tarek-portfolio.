@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mahmoud Tarek – Data Analyst Portfolio</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #F5F7FA;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Hero Section */
+    header {
+        background: linear-gradient(135deg, #1C3C50, #4CA1AF);
+        color: #fff;
+        text-align: center;
+        padding: 100px 20px;
+    }
+    header h1 {
+        font-size: 3.2em;
+        margin: 0;
+        letter-spacing: 1px;
+    }
+    header p.slogan {
+        font-style: italic;
+        font-size: 1.3em;
+        margin: 10px 0 5px;
+        opacity: 0.9;
+    }
+    header p.description {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+    }
+    header img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 5px solid #fff;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+    header a.button {
+        display: inline-block;
+        margin-top: 25px;
+        background-color: #FF6B6B;
+        color: #fff;
+        padding: 16px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+        transition: 0.3s;
+    }
+    header a.button:hover {
+        background-color: #FF4757;
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Sections */
+    section {
+        max-width: 950px;
+        margin: 40px auto;
+        padding: 50px 30px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+    h2 {
+        color: #1C3C50;
+        border-bottom: 3px solid #4CA1AF;
+        padding-bottom: 8px;
+        margin-bottom: 25px;
+    }
+
+    /* Projects Grid */
+    #projects .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    .project {
+        background: #E9F7F7;
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .project:hover {
+        transform: translateY(-7px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    /* Skills */
+    .skills span {
+        background: linear-gradient(90deg, #4CA1AF, #1C3C50);
+        color: #fff;
+        padding: 12px 18px;
+        margin: 10px 0;
+        display: block;
+        border-radius: 8px;
+        font-size: 1em;
+        transition: 0.3s;
+        width: fit-content;
+    }
+    .skills span:hover {
+        transform: translateX(5px);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    /* Contact */
+    .contact a {
+        color: #4CA1AF;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+        margin: 10px 0;
+        transition: 0.3s;
+    }
+    .contact a:hover {
+        color: #1C3C50;
+        text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 25px;
+        background-color: #1C3C50;
+        color: #fff;
+    }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+        header h1 {
+            font-size: 2.5em;
+        }
+        header p.description, header p.slogan {
+            font-size: 1em;
+        }
+        header img {
+            width: 130px;
+            height: 130px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Mahmoud Tarek</h1>
+    <p class="slogan">“Turning Data into Decisions, One Insight at a Time”</p>
+    <p class="description">Transforming Data into Actionable Insights</p>
+    <img src="profile.jpg" alt="Mahmoud Tarek">
+    <br>
+    <a href="#projects" class="button">View Portfolio</a>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am Mahmoud Tarek, a passionate Data Analyst with experience in transforming raw data into actionable insights 
+        that drive business decisions. I specialize in SQL, Power BI, Excel, and Python, and I enjoy cleaning and visualizing 
+        complex datasets to uncover trends and opportunities. My goal is to help organizations make data-driven decisions 
+        efficiently and accurately. I have a strong eye for detail, excellent problem-solving skills, and I love turning 
+        numbers into meaningful stories. Currently, I am continuously improving my skills in advanced analytics and 
+        data visualization to stay ahead in the fast-evolving field of data analytics.
+    </p>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <p><strong>Bachelor of Commerce – Accounting Department</strong><br>
+    Tanta University, Egypt – Graduated 2025</p>
+</section>
+
+<section>
+    <h2>Courses & Internship</h2>
+    <ul>
+        <li>Internship at DEPI – Gained practical experience in data analysis and reporting</li>
+        <li>Data Analyst Course – SQL, Power BI, Excel, Python</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+        
+    </div>
+</section>
+
+<section>
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <span>SQL</span>
+        <span>Excel</span>
+        <span>Power BI</span>
+        <span>Python</span>
+        <span>Data Visualization</span>
+        <span>Data Cleaning</span>
+    </div>
+</section>
+
+<section>
+    <h2>Soft Skills</h2>
+    <div class="skills">
+        <span>Communication</span>
+        <span>Problem Solving</span>
+        <span>Critical Thinking</span>
+        <span>Teamwork</span>
+        <span>Adaptability</span>
+        <span>Time Management</span>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <div class="contact">
+        <a href="mailto:mt155988@gmail.com">Email: mt155988@gmail.com</a>
+        <a href="https://www.linkedin.com/in/mahmoud-tarek-4a53412b5" target="_blank">LinkedIn</a>
+        <a href="https://github.com/mt155" target="_blank">GitHub</a>
+    </div>
+</section>
+
+<footer>
+    &copy; 2026 Mahmoud Tarek – All Rights Reserved
+</footer>
+
+</body>
+</html>
